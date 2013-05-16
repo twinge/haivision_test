@@ -1,0 +1,14 @@
+development: &common
+  adapter: sqlite3
+  database: haivision
+
+
+production:
+  <<: *common
+
+peoplesoft:
+  <<: *common
+
+donor:
+  <<: *common
+

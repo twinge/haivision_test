@@ -37,4 +37,5 @@ gem 'sqlite3'
 # To use debugger
 # gem 'debugger'
 
+gem 'awesome_print'
 gem 'haivision', path: '~/htdocs/haivision'
